@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+
+<body>
+    <header class="header" id="home">
+        <nav>
+            <div class="nav_header" id="nav-header">
+                <div class="nav_logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="nav_menu_btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav_links" id='nav-links'>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li class="nav_logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo"/>
+                    </a>
+                </li>
+                <li><a href="pricing.html">PRICING</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section class="name_container">
+        <img src="images/text-1739846916881.png" alt="DZP">
+    </section>
+
+    <img src="images/florals.png"/>
+
+    <section class="container">
+        <h2>THE PERSON BEHIND THE CAMERA</h2>
+
+    <p>Photography has been part of my life since I
+        got my first camera at 18, and over the past 7 years, it's grown into a passion that's all about
+         capturing life as it unfolds-candid, real, and authentic moments over stiff, posed shots.
+        I officially stepped into the business side of photography in 2021 but took a creative & maternal
+        break from 2023-2025, I'm excited to be back with a renewed perspective and inspiration. What
+        drinks me is the joy of capturing those in-between moments-the fleeting glances, bursts of laughter,
+        and stories that pictures can tell without a single word. If you're looking for a photographer who
+        values authenticity and creativity, I'd love to hear from you.<br><br> Let's create something beautiful
+        together.</p>
+    </div>
+
+    <div class="about_images">
+        <img src="images/rose-portrait.jpeg"/>
+        <img src="images/maria-portrait.jpeg"/>
+        <img src="images/cheri-portrait.jpeg"/>
+        </div>
+    </div>
+
+    <img src="images/florals.png"/>
+    
+
+    </section>
+
+    <section class="love-notes" id="love-notes">
+        <div class="section_container love-notes_container">
+            <h2 class="section_header">LOVE NOTES</h2>
+            <div class="testimonials-content">
+                <div class="swiper testimonials-slider js-testimonial-slider">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonials-item">
+                        <div class="info">
+                            <img src="images/rose-portrait.jpeg" alt="rosie">
+                            <div class="text-box">
+                            <h3 class="name">Rose Phann</h3>
+                            </div>
+                        </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure et earum aut accusantium. Autem rerum fuga dicta unde non, voluptas facere ipsa recusandae totam cum! Aspernatur et maxime cum quos.</p>
+                    </div>
+
+                    <div class="swiper-slide testimonials-item">
+                        <div class="info">
+                            <img src="images/Gallery/dan-portrait.jpeg" alt="dan">
+                            <div class="text-box">
+                            <h3 class="name">Danielle McCully</h3>
+                            </div>
+                        </div>
+                            <p>I've had the pleasure of working with Deborah for our family photos, wedding, and portraits, and each time, she has exceeded my expectations. Her ability to capture beautiful, candid moments is truly incredible. Whether it was a quiet, heartfelt glance or a burst of laughter, she always managed 
+                                to preserve the most genuine emotions in every shot. Her keen eye for detail and ability to make you feel comfortable makes her an absolute joy to work with. We are so grateful for the stunning memories she's given us and highly recommend Deborah to anyone looking for a photographer who truly understands the art of storytelling
+                                through photography!
+                            </p>
+                    </div>
+
+                    <div class="swiper-slide testimonials-item">
+                        <div class="info">
+                            <img src="images/Gallery/engagement-close.jpeg" alt="engage">
+                            <div class="text-box">
+                            <h3 class="name">Engagement</h3>
+                            </div>
+                        </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure et earum aut accusantium. Autem rerum fuga dicta unde non, voluptas facere ipsa recusandae totam cum! Aspernatur et maxime cum quos.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination js-testimonials-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+const swiper = new Swiper('.js-testimonial-slider', {
+  grabCursor: true,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 5000, // change this to however fast you want the slides to auto-advance
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.js-testimonials-pagination',
+    clickable: true
+  },
+  breakpoints: {
+    767: {
+      slidesPerView: 2
+    },
+    0: {
+      slidesPerView: 1 // ensure it shows 1 slide on small screens
+    }
+  }
+});
+
+    </script>
+</body>
+</html>
